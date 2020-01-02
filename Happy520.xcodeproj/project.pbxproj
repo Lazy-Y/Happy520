@@ -7,21 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69E3C9351CF2DB920038E487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3C9341CF2DB920038E487 /* AppDelegate.swift */; };
-		69E3C9371CF2DB920038E487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3C9361CF2DB920038E487 /* ViewController.swift */; };
-		69E3C93A1CF2DB920038E487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C9381CF2DB920038E487 /* Main.storyboard */; };
-		69E3C93C1CF2DB920038E487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C93B1CF2DB920038E487 /* Assets.xcassets */; };
-		69E3C93F1CF2DB920038E487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C93D1CF2DB920038E487 /* LaunchScreen.storyboard */; };
+		2DE1CF68A0A9D52C6603D1FD /* Pods_Happy520.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95344C791B2FDA53DFC9862F /* Pods_Happy520.framework */; };
+		69E3C94F1CF2DC8C0038E487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3C9471CF2DC8C0038E487 /* AppDelegate.swift */; };
+		69E3C9501CF2DC8C0038E487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3C9481CF2DC8C0038E487 /* ViewController.swift */; };
+		69E3C9511CF2DC8C0038E487 /* GLNPianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3C9491CF2DC8C0038E487 /* GLNPianoView.swift */; };
+		69E3C9521CF2DC8C0038E487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C94A1CF2DC8C0038E487 /* Main.storyboard */; };
+		69E3C9531CF2DC8C0038E487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C94B1CF2DC8C0038E487 /* Assets.xcassets */; };
+		69E3C9541CF2DC8C0038E487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C94C1CF2DC8C0038E487 /* LaunchScreen.storyboard */; };
+		69E3C9561CF2DC8C0038E487 /* a.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69E3C94E1CF2DC8C0038E487 /* a.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69E3C9311CF2DB920038E487 /* Happy520.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happy520.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E3C9341CF2DB920038E487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69E3C9361CF2DB920038E487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69E3C9391CF2DB920038E487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69E3C93B1CF2DB920038E487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		69E3C93E1CF2DB920038E487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		69E3C9401CF2DB920038E487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E3C9461CF2DC890038E487 /* Happy520-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happy520-Bridging-Header.h"; sourceTree = "<group>"; };
+		69E3C9471CF2DC8C0038E487 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69E3C9481CF2DC8C0038E487 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69E3C9491CF2DC8C0038E487 /* GLNPianoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLNPianoView.swift; sourceTree = "<group>"; };
+		69E3C94A1CF2DC8C0038E487 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		69E3C94B1CF2DC8C0038E487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69E3C94C1CF2DC8C0038E487 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69E3C94D1CF2DC8C0038E487 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E3C94E1CF2DC8C0038E487 /* a.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.ttf; sourceTree = "<group>"; };
+		6AAB8849A92A47862F9609CE /* Pods-Happy520.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy520.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy520/Pods-Happy520.debug.xcconfig"; sourceTree = "<group>"; };
+		95344C791B2FDA53DFC9862F /* Pods_Happy520.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy520.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15A7B305EB2B640CF3AB9C9 /* Pods-Happy520.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy520.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy520/Pods-Happy520.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE1CF68A0A9D52C6603D1FD /* Pods_Happy520.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +50,8 @@
 			children = (
 				69E3C9331CF2DB920038E487 /* Happy520 */,
 				69E3C9321CF2DB920038E487 /* Products */,
+				9334110BE2433074C6A154D6 /* Pods */,
+				70999821E3330F05588528DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +66,34 @@
 		69E3C9331CF2DB920038E487 /* Happy520 */ = {
 			isa = PBXGroup;
 			children = (
-				69E3C9341CF2DB920038E487 /* AppDelegate.swift */,
-				69E3C9361CF2DB920038E487 /* ViewController.swift */,
-				69E3C9381CF2DB920038E487 /* Main.storyboard */,
-				69E3C93B1CF2DB920038E487 /* Assets.xcassets */,
-				69E3C93D1CF2DB920038E487 /* LaunchScreen.storyboard */,
-				69E3C9401CF2DB920038E487 /* Info.plist */,
+				69E3C9471CF2DC8C0038E487 /* AppDelegate.swift */,
+				69E3C9481CF2DC8C0038E487 /* ViewController.swift */,
+				69E3C9491CF2DC8C0038E487 /* GLNPianoView.swift */,
+				69E3C94A1CF2DC8C0038E487 /* Main.storyboard */,
+				69E3C94B1CF2DC8C0038E487 /* Assets.xcassets */,
+				69E3C94C1CF2DC8C0038E487 /* LaunchScreen.storyboard */,
+				69E3C94D1CF2DC8C0038E487 /* Info.plist */,
+				69E3C94E1CF2DC8C0038E487 /* a.ttf */,
+				69E3C9461CF2DC890038E487 /* Happy520-Bridging-Header.h */,
 			);
 			path = Happy520;
+			sourceTree = "<group>";
+		};
+		70999821E3330F05588528DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95344C791B2FDA53DFC9862F /* Pods_Happy520.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9334110BE2433074C6A154D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB8849A92A47862F9609CE /* Pods-Happy520.debug.xcconfig */,
+				B15A7B305EB2B640CF3AB9C9 /* Pods-Happy520.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69E3C9431CF2DB920038E487 /* Build configuration list for PBXNativeTarget "Happy520" */;
 			buildPhases = (
+				B8772AAD01833650DD846C9E /* [CP] Check Pods Manifest.lock */,
+				3654F95A40C1D518D333CB21 /* 📦 Check Pods Manifest.lock */,
 				69E3C92D1CF2DB920038E487 /* Sources */,
 				69E3C92E1CF2DB920038E487 /* Frameworks */,
 				69E3C92F1CF2DB920038E487 /* Resources */,
+				22A288266725E2B726E38458 /* 📦 Embed Pods Frameworks */,
+				0BB7666466B5E73855B447D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,11 +127,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = ZhouShuxiao;
 				TargetAttributes = {
 					69E3C9301CF2DB920038E487 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BQJG9S336S;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -104,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -122,62 +161,133 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E3C93F1CF2DB920038E487 /* LaunchScreen.storyboard in Resources */,
-				69E3C93C1CF2DB920038E487 /* Assets.xcassets in Resources */,
-				69E3C93A1CF2DB920038E487 /* Main.storyboard in Resources */,
+				69E3C9541CF2DC8C0038E487 /* LaunchScreen.storyboard in Resources */,
+				69E3C9531CF2DC8C0038E487 /* Assets.xcassets in Resources */,
+				69E3C9521CF2DC8C0038E487 /* Main.storyboard in Resources */,
+				69E3C9561CF2DC8C0038E487 /* a.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB7666466B5E73855B447D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Happy520/Pods-Happy520-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GLNPianoView/GLNPianoView.framework",
+				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GLNPianoView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Happy520/Pods-Happy520-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A288266725E2B726E38458 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy520/Pods-Happy520-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3654F95A40C1D518D333CB21 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8772AAD01833650DD846C9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Happy520-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69E3C92D1CF2DB920038E487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E3C9371CF2DB920038E487 /* ViewController.swift in Sources */,
-				69E3C9351CF2DB920038E487 /* AppDelegate.swift in Sources */,
+				69E3C9511CF2DC8C0038E487 /* GLNPianoView.swift in Sources */,
+				69E3C9501CF2DC8C0038E487 /* ViewController.swift in Sources */,
+				69E3C94F1CF2DC8C0038E487 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		69E3C9381CF2DB920038E487 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69E3C9391CF2DB920038E487 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		69E3C93D1CF2DB920038E487 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69E3C93E1CF2DB920038E487 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		69E3C9411CF2DB920038E487 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -212,18 +322,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -242,6 +363,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,23 +371,40 @@
 		};
 		69E3C9441CF2DB920038E487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAB8849A92A47862F9609CE /* Pods-Happy520.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BQJG9S336S;
 				INFOPLIST_FILE = Happy520/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = USC.Happy520;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Happy520/Happy520-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		69E3C9451CF2DB920038E487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15A7B305EB2B640CF3AB9C9 /* Pods-Happy520.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BQJG9S336S;
 				INFOPLIST_FILE = Happy520/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = USC.Happy520;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Happy520/Happy520-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -288,6 +427,7 @@
 				69E3C9451CF2DB920038E487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
